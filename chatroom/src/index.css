@@ -1,0 +1,12 @@
+body {
+  margin: 20;
+  padding: 50;
+  font-family: Calibri;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, "Courier New",
+    monospace;
+}

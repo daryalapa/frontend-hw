@@ -1,0 +1,42 @@
+.post {
+    width: 675px;
+    margin: 10px 0 10px 0;
+    position:  relative;
+    top: 250px;
+    left: 475px;
+    box-sizing: border-box;
+    background:white;
+    padding: 1rem;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 1), 0 8px 5px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+.message {
+    display: flex;
+    padding: 10px;
+    width:500px;
+    border: solid;
+    border-radius: 0.3rem;
+    border-color: lightsalmon;
+}
+
+.nickname {
+    box-sizing: border-box;
+    color: DarkSlateGray;
+}
+
+.remove-button {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    border: 0.5mm solid;
+    border-color: gray;
+    border-radius: 1mm;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background: red;
+    color: white;
+}

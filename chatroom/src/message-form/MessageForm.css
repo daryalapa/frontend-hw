@@ -1,0 +1,40 @@
+.post-form {
+    background: tomato;
+    width:750px;
+    padding: 20px;
+    position:absolute;
+    left: 450px;
+    top: 200px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 1), 0 8px 5px 0 rgba(0, 0, 0, 0.10);
+}
+
+.message-label {
+    position:absolute;
+    right: 120px;
+    color: white;
+}
+
+.nickname-label {
+    color: white;
+}
+
+.button {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 1mm;
+    border: 0.3mm solid;
+    border-color: gray;
+}
+
+.button:hover {
+    background: darkgray;
+    color: white;
+}
+
+.select-style {
+    width: 200px;
+}
